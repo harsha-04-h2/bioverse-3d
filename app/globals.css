@@ -1,0 +1,86 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+html,
+body {
+  background: #0a1628;
+}
+
+body {
+  @apply text-slate-200 antialiased;
+}
+
+/* ---- 3D floating labels (drei Html) ---- */
+.bv-label {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: rgba(8, 18, 36, 0.88);
+  border: 1px solid rgba(56, 189, 248, 0.35);
+  color: #e2e8f0;
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+  padding: 3px 9px 3px 7px;
+  border-radius: 999px;
+  white-space: nowrap;
+  pointer-events: none;
+  user-select: none;
+}
+
+.bv-label::before {
+  content: "";
+  width: 6px;
+  height: 6px;
+  border-radius: 999px;
+  background: #38bdf8;
+  flex-shrink: 0;
+}
+
+.bv-label::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 100%;
+  width: 1px;
+  height: 16px;
+  background: linear-gradient(to bottom, rgba(56, 189, 248, 0.7), transparent);
+}
+
+/* compact variant for inline substance / osmolarity annotations */
+.bv-label-sm {
+  font-size: 9px;
+  padding: 2px 7px 2px 6px;
+  opacity: 0.94;
+}
+
+.bv-label-sm::after {
+  height: 10px;
+}
+
+/* ---- range inputs ---- */
+input[type="range"] {
+  outline: none;
+}
+
+/* ---- scrollbars ---- */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #0a1628;
+}
+::-webkit-scrollbar-thumb {
+  background: #1e3a5f;
+  border-radius: 8px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #2a4d7a;
+}
