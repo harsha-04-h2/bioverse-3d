@@ -770,7 +770,7 @@ export const figures: FigureDef[] = [
         id: "dgm-11-4-4d1-radial",
         name: "Radial symmetry",
         description:
-          "Body parts arranged around a central axis so any plane through the centre gives mirror halves. Seen in cnidarians and adult echinoderms.",
+          "Body parts arranged around a central axis so any plane through the centre gives mirror halves. Seen in cnidarians, ctenophores and adult echinoderms.",
       },
       {
         id: "dgm-11-4-4d1-bilateral",
@@ -960,7 +960,7 @@ export const figures: FigureDef[] = [
           { kind: "rect", x: 55, y: 168, w: 130, h: 34, rx: 6, fill: "#22d3ee", stroke: "#22d3ee", opacity: 0.1 },
           { kind: "text", x: 120, y: 190, text: "Porifera", size: 14, color: "#e2e8f0", anchor: "middle" },
           { kind: "rect", x: 205, y: 168, w: 130, h: 34, rx: 6, fill: "#22d3ee", stroke: "#22d3ee", opacity: 0.1 },
-          { kind: "text", x: 270, y: 190, text: "Cnidaria", size: 14, color: "#e2e8f0", anchor: "middle" },
+          { kind: "text", x: 270, y: 190, text: "Coelenterata", size: 14, color: "#e2e8f0", anchor: "middle" },
           { kind: "rect", x: 55, y: 212, w: 130, h: 34, rx: 6, fill: "#22d3ee", stroke: "#22d3ee", opacity: 0.1 },
           { kind: "text", x: 120, y: 234, text: "Ctenophora", size: 14, color: "#e2e8f0", anchor: "middle" },
           { kind: "rect", x: 205, y: 212, w: 130, h: 34, rx: 6, fill: "#22d3ee", stroke: "#22d3ee", opacity: 0.1 },
@@ -1251,7 +1251,7 @@ export const figures: FigureDef[] = [
           { kind: "path", d: "M 250 330 l -18 8 M 252 355 l -18 8", stroke: "#a78bfa", strokeWidth: 1.5, opacity: 0.7 },
           { kind: "path", d: "M 550 330 l 18 8 M 548 355 l 18 8", stroke: "#a78bfa", strokeWidth: 1.5, opacity: 0.7 },
           { kind: "circle", cx: 400, cy: 372, r: 7, fill: "#38bdf8", opacity: 0.7 },
-          { kind: "text", x: 400, y: 445, text: "Transparent marine plankton - often called sea gooseberries", size: 15, color: "#64748b", anchor: "middle" },
+          { kind: "text", x: 400, y: 445, text: "Transparent marine plankton - a sea walnut / comb jelly", size: 15, color: "#64748b", anchor: "middle" },
         ],
         labels: [
           { text: "8 comb rows - fused cilia plates", x: 345, y: 250, lx: 160, ly: 130, anchor: "middle", accent: "sky", info: "Rows of ctenes (fused cilia) beat in waves to swim and scatter light into rainbow flashes." },
@@ -1512,9 +1512,9 @@ export const figures: FigureDef[] = [
         width: 800,
         height: 500,
         shapes: [
-          { kind: "text", x: 140, y: 52, text: "Apis - honeybee", size: 18, color: "#e2e8f0", weight: 600, anchor: "middle" },
-          { kind: "text", x: 400, y: 52, text: "Palaemon - prawn", size: 18, color: "#e2e8f0", weight: 600, anchor: "middle" },
-          { kind: "text", x: 650, y: 52, text: "Spider - arachnid", size: 18, color: "#e2e8f0", weight: 600, anchor: "middle" },
+          { kind: "text", x: 140, y: 52, text: "Locusta - locust", size: 18, color: "#e2e8f0", weight: 600, anchor: "middle" },
+          { kind: "text", x: 400, y: 52, text: "Prawn", size: 18, color: "#e2e8f0", weight: 600, anchor: "middle" },
+          { kind: "text", x: 650, y: 52, text: "Scorpion - arachnid", size: 18, color: "#e2e8f0", weight: 600, anchor: "middle" },
           // bee
           { kind: "circle", cx: 85, cy: 235, r: 20, fill: "#fbbf24", stroke: "#fbbf24", strokeWidth: 2, opacity: 0.3 },
           { kind: "ellipse", cx: 135, cy: 240, rx: 30, ry: 26, fill: "#fbbf24", stroke: "#fbbf24", strokeWidth: 2, opacity: 0.22 },
@@ -1539,7 +1539,7 @@ export const figures: FigureDef[] = [
           { kind: "path", d: "M 622 205 l -40 -35 l -25 -10 M 628 200 l -30 -45 l -15 -20 M 652 200 l 30 -45 l 15 -20 M 658 205 l 40 -35 l 25 -10 M 618 225 l -45 -5 l -25 8 M 662 225 l 45 -5 l 25 8 M 618 235 l -42 18 l -20 18 M 662 235 l 42 18 l 20 18", stroke: "#a78bfa", strokeWidth: 2.5, fill: "none" },
           { kind: "text", x: 650, y: 340, text: "8 legs, no antennae", size: 13, color: "#94a3b8", anchor: "middle" },
           { kind: "text", x: 400, y: 410, text: "Arthropoda: jointed appendages, chitinous exoskeleton, the largest phylum.", size: 15, color: "#94a3b8", anchor: "middle" },
-          { kind: "text", x: 400, y: 452, text: "Over 80% of all known animal species are arthropods.", size: 15, color: "#64748b", anchor: "middle" },
+          { kind: "text", x: 400, y: 452, text: "Over two-thirds of all named species on Earth are arthropods.", size: 15, color: "#64748b", anchor: "middle" },
         ],
         labels: [
           { text: "Tagmata - fused body regions", x: 135, y: 240, lx: 140, ly: 130, anchor: "middle", accent: "amber", info: "Segments fuse into functional regions: insects have head, thorax and abdomen." },
@@ -1551,13 +1551,13 @@ export const figures: FigureDef[] = [
     status: "ready",
     vizType: "diagram-2d",
     description:
-      "Arthropods - jointed-legged animals - are the most successful animals on Earth, with over eighty percent of all known species. The honeybee shows insect tagmatisation: head, thorax and abdomen with six legs and wings. The prawn fuses head and thorax into a cephalothorax. The spider, an arachnid, walks on eight legs and has no antennae at all.",
+      "Arthropods - jointed-legged animals - form the largest phylum of the animal kingdom: over two-thirds of all named species on Earth. The locust and the butterfly show insect tagmatisation: head, thorax and abdomen with jointed legs. The prawn fuses head and thorax into a cephalothorax, and the scorpion, an arachnid, walks on eight legs with no antennae at all.",
     labels: [
       {
         id: "dgm-11-4-4d12-tagmosis",
         name: "Tagmosis",
         description:
-          "Fusion of segments into functional body regions (tagmata). Insects have three tagmata; spiders and crustaceans have two.",
+          "Fusion of segments into functional body regions (tagmata). Insects have three tagmata; arachnids and crustaceans have two.",
       },
       {
         id: "dgm-11-4-4d12-exoskeleton",
@@ -1661,7 +1661,7 @@ export const figures: FigureDef[] = [
         shapes: [
           { kind: "text", x: 160, y: 52, text: "Asterias - starfish", size: 18, color: "#e2e8f0", weight: 600, anchor: "middle" },
           { kind: "text", x: 400, y: 52, text: "Echinus - sea urchin", size: 18, color: "#e2e8f0", weight: 600, anchor: "middle" },
-          { kind: "text", x: 640, y: 52, text: "Holothuria - sea cucumber", size: 18, color: "#e2e8f0", weight: 600, anchor: "middle" },
+          { kind: "text", x: 640, y: 52, text: "Cucumaria - sea cucumber", size: 18, color: "#e2e8f0", weight: 600, anchor: "middle" },
           // starfish
           { kind: "path", d: "M 160 250 L 100 190 L 130 200 L 160 170 L 190 200 L 220 190 Z", fill: "#fb923c", stroke: "#fb923c", strokeWidth: 2, opacity: 0.25 },
           { kind: "path", d: "M 160 250 L 95 285 L 125 280 L 140 315 L 180 315 L 195 280 L 225 285 Z", fill: "#fb923c", stroke: "#fb923c", strokeWidth: 2, opacity: 0.25 },
@@ -1737,7 +1737,7 @@ export const figures: FigureDef[] = [
           { kind: "text", x: 170, y: 320, text: "proboscis", size: 14, color: "#fbbf24", anchor: "middle" },
           { kind: "text", x: 234, y: 320, text: "collar", size: 14, color: "#fb923c", anchor: "middle" },
           { kind: "text", x: 460, y: 320, text: "long trunk", size: 14, color: "#38bdf8", anchor: "middle" },
-          { kind: "text", x: 400, y: 400, text: "Burrows in marine sand - a worm with a foot, a collar and gill slits.", size: 15, color: "#94a3b8", anchor: "middle" },
+          { kind: "text", x: 400, y: 400, text: "Burrows in marine sand with its muscular proboscis - collar and gill slits behind.", size: 15, color: "#94a3b8", anchor: "middle" },
           { kind: "text", x: 400, y: 452, text: "Once classed with chordates; now its own phylum, Hemichordata.", size: 15, color: "#64748b", anchor: "middle" },
         ],
         labels: [
@@ -2052,7 +2052,7 @@ export const figures: FigureDef[] = [
         width: 800,
         height: 500,
         shapes: [
-          { kind: "text", x: 400, y: 52, text: "Labeo rohita - the rohu", size: 22, color: "#e2e8f0", weight: 600, anchor: "middle" },
+          { kind: "text", x: 400, y: 52, text: "Hippocampus - sea horse · Catla - katla", size: 20, color: "#e2e8f0", weight: 600, anchor: "middle" },
           { kind: "path", d: "M 120 250 Q 250 198 430 212 Q 545 222 580 240 L 580 262 Q 450 288 300 284 Q 180 280 120 250 Z", fill: "#34d399", stroke: "#34d399", strokeWidth: 2, opacity: 0.14 },
           { kind: "path", d: "M 580 251 L 652 214 L 636 251 L 652 288 Z", fill: "#34d399", stroke: "#34d399", strokeWidth: 2, opacity: 0.3 },
           { kind: "path", d: "M 350 206 L 380 160 L 405 206 Z", fill: "#34d399", stroke: "#34d399", strokeWidth: 2, opacity: 0.3 },
@@ -2076,7 +2076,7 @@ export const figures: FigureDef[] = [
     status: "ready",
     vizType: "diagram-2d",
     description:
-      "Bony fishes - Osteichthyes - dominate the waters because of three innovations: a bony skeleton, an operculum that pumps water over the gills, and an air bladder for effortless buoyancy. The rohu shows them all, plus the symmetrical homocercal tail and smooth overlapping cycloid scales that distinguish bony fishes from sharks at a glance.",
+      "Bony fishes - Osteichthyes - dominate the waters because of three innovations: a bony skeleton, an operculum that pumps water over the gills, and an air bladder for effortless buoyancy. The sea horse and the katla show them all, plus the symmetrical homocercal tail and smooth overlapping cycloid scales that distinguish bony fishes from sharks at a glance.",
     labels: [
       {
         id: "dgm-11-4-4d20-osteichthyes",
@@ -2184,9 +2184,9 @@ export const figures: FigureDef[] = [
         width: 800,
         height: 500,
         shapes: [
-          { kind: "text", x: 150, y: 52, text: "Lizard", size: 18, color: "#e2e8f0", weight: 600, anchor: "middle" },
-          { kind: "text", x: 400, y: 52, text: "Snake", size: 18, color: "#e2e8f0", weight: 600, anchor: "middle" },
-          { kind: "text", x: 640, y: 52, text: "Turtle", size: 18, color: "#e2e8f0", weight: 600, anchor: "middle" },
+          { kind: "text", x: 150, y: 52, text: "Chameleon - tree lizard", size: 18, color: "#e2e8f0", weight: 600, anchor: "middle" },
+          { kind: "text", x: 400, y: 52, text: "Naja - cobra", size: 18, color: "#e2e8f0", weight: 600, anchor: "middle" },
+          { kind: "text", x: 640, y: 52, text: "Chelone - turtle", size: 18, color: "#e2e8f0", weight: 600, anchor: "middle" },
           // lizard
           { kind: "ellipse", cx: 140, cy: 250, rx: 55, ry: 24, fill: "#a3e635", stroke: "#a3e635", strokeWidth: 2, opacity: 0.2 },
           { kind: "path", d: "M 195 250 Q 250 245 285 260 Q 250 262 195 258", fill: "#a3e635", stroke: "#a3e635", strokeWidth: 2, opacity: 0.3 },
@@ -2261,7 +2261,7 @@ export const figures: FigureDef[] = [
         width: 800,
         height: 500,
         shapes: [
-          { kind: "text", x: 400, y: 52, text: "Columba - the pigeon", size: 22, color: "#e2e8f0", weight: 600, anchor: "middle" },
+          { kind: "text", x: 400, y: 52, text: "Psittacula - parrot · Pavo - peacock", size: 20, color: "#e2e8f0", weight: 600, anchor: "middle" },
           { kind: "ellipse", cx: 370, cy: 270, rx: 85, ry: 58, fill: "#38bdf8", stroke: "#38bdf8", strokeWidth: 2, opacity: 0.14 },
           { kind: "circle", cx: 462, cy: 212, r: 27, fill: "#38bdf8", stroke: "#38bdf8", strokeWidth: 2, opacity: 0.2 },
           { kind: "path", d: "M 488 212 L 516 204 L 488 220 Z", fill: "#fbbf24", stroke: "#fbbf24", opacity: 0.8 },
@@ -2324,7 +2324,7 @@ export const figures: FigureDef[] = [
         width: 800,
         height: 500,
         shapes: [
-          { kind: "text", x: 400, y: 52, text: "Oryctolagus - the rabbit", size: 22, color: "#e2e8f0", weight: 600, anchor: "middle" },
+          { kind: "text", x: 400, y: 52, text: "Ornithorhynchus · Macropus · Pteropus · Balaenoptera", size: 18, color: "#e2e8f0", weight: 600, anchor: "middle" },
           { kind: "ellipse", cx: 360, cy: 280, rx: 75, ry: 48, fill: "#fbbf24", stroke: "#fbbf24", strokeWidth: 2, opacity: 0.14 },
           { kind: "circle", cx: 448, cy: 232, r: 30, fill: "#fbbf24", stroke: "#fbbf24", strokeWidth: 2, opacity: 0.2 },
           { kind: "ellipse", cx: 440, cy: 168, rx: 11, ry: 36, fill: "#fbbf24", stroke: "#fbbf24", strokeWidth: 2, opacity: 0.3 },
@@ -2338,7 +2338,7 @@ export const figures: FigureDef[] = [
           { kind: "circle", cx: 405, cy: 322, r: 7, fill: "#fb7185", stroke: "#fb7185", opacity: 0.5 },
           { kind: "path", d: "M 300 260 l 12 -6 M 320 250 l 12 -6 M 300 280 l 12 -4", stroke: "#fbbf24", strokeWidth: 1.5, opacity: 0.6 },
           { kind: "text", x: 400, y: 425, text: "Mammalia: hair, mammary glands, diaphragm - warm-blooded.", size: 15, color: "#94a3b8", anchor: "middle" },
-          { kind: "text", x: 400, y: 452, text: "From bats to whales to humans - the most diverse vertebrate class.", size: 15, color: "#64748b", anchor: "middle" },
+          { kind: "text", x: 400, y: 452, text: "Platypus lays eggs, kangaroo hops, flying fox flies, blue whale swims - all mammals.", size: 15, color: "#64748b", anchor: "middle" },
         ],
         labels: [
           { text: "Hair / fur - insulation", x: 315, y: 265, lx: 180, ly: 130, anchor: "middle", accent: "amber", info: "Keratin filaments covering the body - a mammalian exclusive that conserves metabolic heat." },
@@ -2351,7 +2351,7 @@ export const figures: FigureDef[] = [
     status: "ready",
     vizType: "diagram-2d",
     description:
-      "Mammals are defined by two things no other animal has: hair and mammary glands that produce milk. The rabbit shows the classic features - fur, long pinnae, and a body built around a muscular diaphragm for breathing. The same blueprint stretches from flying bats to swimming whales: all warm-blooded, all air-breathing, all nursing their young.",
+      "Mammals are defined by two things no other animal has: hair and mammary glands that produce milk. The platypus - an egg-laying mammal - shows the classic features alongside the kangaroo, the flying fox and the blue whale: fur, external pinnae, and a body built around a muscular diaphragm for breathing. All warm-blooded, all air-breathing, all nursing their young.",
     labels: [
       {
         id: "dgm-11-4-4d24-mammary",

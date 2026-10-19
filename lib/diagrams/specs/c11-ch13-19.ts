@@ -32,7 +32,7 @@ export const figures: FigureDef[] = [
           },
           {
             tag: "Stage D",
-            title: "Hypocotyl hook rises",
+            title: "Epicotyl hook rises",
             detail: "The curved stem arches upward, dragging the cotyledons through the soil.",
             accent: "lime",
           },
@@ -54,7 +54,7 @@ export const figures: FigureDef[] = [
     status: "ready",
     vizType: "timeline",
     description:
-      "Bean germination unfolds as an ordered relay: the radicle always leads, anchoring the plant before the shoot commits to emerging. The hypocotyl's hook is a protection strategy — the delicate tip stays tucked while the arch bulldozes through soil. Once the cotyledons spread, the plant switches from seed reserves to sunlight.",
+      "Bean germination unfolds as an ordered relay: the radicle always leads, anchoring the plant before the shoot commits to emerging. The epicotyl hook is a protection strategy — the delicate tip stays tucked while the arch bulldozes through soil. Once the cotyledons spread, the plant switches from seed reserves to sunlight.",
     labels: [
       {
         id: "germ-radicle",
@@ -66,7 +66,7 @@ export const figures: FigureDef[] = [
         id: "germ-hypocotyl",
         name: "Hypocotyl",
         description:
-          "The stem segment below the cotyledons that arches upward to lift the shoot clear of the soil.",
+          "The young stem segment below the cotyledons, which elongates during germination.",
       },
       {
         id: "germ-cotyledon",
@@ -802,7 +802,7 @@ export const figures: FigureDef[] = [
     status: "ready",
     vizType: "diagram-2d",
     description:
-      "Heterophylly is plasticity you can see: one genome producing strikingly different leaves. Larkspur switches between feathery aerial leaves and simple ground leaves, while buttercup grows dissected leaves underwater and broad ones in air. The environment — not new genes — redraws the leaf.",
+      "Heterophylly is plasticity you can see: one genome producing strikingly different leaves. In larkspur the leaves of the juvenile plant differ in shape from those of the mature plant, while buttercup grows finely dissected leaves underwater and broad ones in air. Same genes — different forms, shaped by development or environment.",
     labels: [
       {
         id: "hetero-def",
